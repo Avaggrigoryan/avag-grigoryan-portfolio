@@ -131,7 +131,7 @@ export default function Contact() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.open('https://linkedin.com/in/avag-grigoryan', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/avag-grigoryan-acca/', '_blank')}
                 className="flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200"
               >
                 <Linkedin className="mr-2" size={20} />

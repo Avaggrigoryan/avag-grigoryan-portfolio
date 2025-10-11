@@ -69,7 +69,7 @@ export default function Hero() {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                onClick={() => window.open('https://linkedin.com/in/avag-grigoryan', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/avag-grigoryan-acca/', '_blank')}
                 className="inline-flex items-center px-8 py-4 bg-white text-primary-600 font-semibold rounded-lg border-2 border-primary-600 hover:bg-primary-50 transition-colors duration-200 shadow-lg hover:shadow-xl"
               >
                 <Linkedin className="mr-2" size={20} />

@@ -14,7 +14,7 @@ export default function Footer() {
   const socialLinks = [
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/avag-grigoryan',
+      href: 'https://www.linkedin.com/in/avag-grigoryan-acca/',
       icon: Linkedin,
       color: 'hover:text-blue-600'
     },
@@ -26,7 +26,7 @@ export default function Footer() {
     },
     {
       name: 'Email',
-      href: 'mailto:avag.grigoryan@example.com',
+      href: 'mailto:avaggrigoryan2004@gmail.com',
       icon: Mail,
       color: 'hover:text-red-600'
     }
@@ -129,8 +129,8 @@ export default function Footer() {
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <div className="space-y-3 text-gray-300">
                 <p>Yerevan, Armenia</p>
-                <p>avag.grigoryan@example.com</p>
-                <p>+374 XX XXX XXX</p>
+                <p>avaggrigoryan2004@gmail.com</p>
+                <p>+374 94 844 892</p>
               </div>
             </motion.div>
           </div>
