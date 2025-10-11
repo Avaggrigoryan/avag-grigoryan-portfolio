@@ -86,7 +86,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <p className="text-gray-900 font-semibold">avag.grigoryan@example.com</p>
+                  <p className="text-gray-900 font-semibold">avaggrigoryan2004@gmail.com</p>
                 </div>
               </motion.div>
 
@@ -101,7 +101,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Phone</p>
-                  <p className="text-gray-900 font-semibold">+374 XX XXX XXX</p>
+                  <p className="text-gray-900 font-semibold">+374 94 844 892 </p>
                 </div>
               </motion.div>
 
