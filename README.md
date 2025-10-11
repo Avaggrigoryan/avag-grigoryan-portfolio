@@ -25,8 +25,8 @@ A modern, responsive, and professional portfolio website built with Next.js, Typ
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/avag-grigoryan/portfolio.git
-   cd portfolio
+   git clone https://github.com/avaggrigoryan/avag-grigoryan-portfolio.git
+   cd avag-grigoryan-portfolio
    ```
 
 2. **Install dependencies**
@@ -307,6 +307,7 @@ If you have any questions or need help customizing the portfolio, please:
 - Open an issue on GitHub
 - Contact: avag.grigoryan@example.com
 - LinkedIn: [linkedin.com/in/avag-grigoryan](https://linkedin.com/in/avag-grigoryan)
+- GitHub: [github.com/avaggrigoryan](https://github.com/avaggrigoryan)
 
 ---
 
