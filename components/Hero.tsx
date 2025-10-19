@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Download, Linkedin, Mail } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Hero() {
   const scrollToSection = (href: string) => {
@@ -97,10 +98,15 @@ export default function Hero() {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-primary-100 to-accent-100 rounded-full flex items-center justify-center shadow-2xl">
                 <div className="w-72 h-72 bg-gradient-to-br from-primary-200 to-accent-200 rounded-full flex items-center justify-center">
-                  <div className="w-64 h-64 bg-white rounded-full flex items-center justify-center shadow-inner">
-                    <div className="text-6xl font-bold text-primary-600">
-                      AG
-                    </div>
+                  <div className="w-64 h-64 bg-white rounded-full flex items-center justify-center shadow-inner overflow-hidden">
+                    <Image
+                      src="/images/profile/avatar.jpg"
+                      alt="Avag Grigoryan"
+                      width={256}
+                      height={256}
+                      className="w-full h-full object-cover rounded-full"
+                      priority
+                    />
                   </div>
                 </div>
               </div>
