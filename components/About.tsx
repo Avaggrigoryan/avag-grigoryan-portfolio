@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { CheckCircle, Globe, Users, Award } from 'lucide-react'
+import Image from 'next/image'
 
 export default function About() {
   const ref = useRef(null)
@@ -110,8 +111,14 @@ export default function About() {
               className="relative"
             >
               <div className="bg-gradient-to-br from-primary-100 to-accent-100 rounded-2xl p-8 text-center">
-                <div className="w-32 h-32 bg-gradient-to-br from-primary-200 to-accent-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-                  <div className="text-4xl font-bold text-primary-600">AG</div>
+                <div className="w-32 h-32 bg-gradient-to-br from-primary-200 to-accent-200 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src="/images/profile/avatar.jpg"
+                    alt="Avag Grigoryan"
+                    width={128}
+                    height={128}
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Avag Grigoryan</h3>
                 <p className="text-primary-600 font-medium">Finance & Enterprise Automation Specialist</p>
